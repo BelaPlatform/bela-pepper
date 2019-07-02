@@ -1,0 +1,18 @@
+#N canvas 258 105 634 189 10;
+#X obj 45 119 outlet;
+#X obj 73 68 delay 3;
+#X text 413 60 Read buttons with debounce;
+#X obj 44 69 f;
+#X obj 185 119 outlet;
+#X obj 213 68 delay 3;
+#X obj 184 69 f;
+#X obj 45 36 r bela_digitalIn26;
+#X obj 185 36 r bela_digitalIn25;
+#X connect 1 0 3 0;
+#X connect 3 0 0 0;
+#X connect 5 0 6 0;
+#X connect 6 0 4 0;
+#X connect 7 0 1 0;
+#X connect 7 0 3 1;
+#X connect 8 0 5 0;
+#X connect 8 0 6 1;
